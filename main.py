@@ -4,7 +4,7 @@ import hashlib
 import string
 import psutil
 
-USE_MEMORY = "8G"
+USE_MEMORY = "96G"
 
 def parse_memory_limit(memory_str):
     size = int(memory_str[:-1])
